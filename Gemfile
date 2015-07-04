@@ -1,4 +1,4 @@
- source 'https://rubygems.org'
+  source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -39,6 +39,7 @@ gem 'spring',        group: :development
 gem 'devise', '~> 3.4.1'
 #Use Stripe for handling paymonts
 gem 'stripe', '~> 1.16.1'
+gem "stripe_event"
 #Use figaro to hide secret keys
 gem 'figaro', '~> 1.0.0'
 
